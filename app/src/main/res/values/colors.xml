@@ -1,0 +1,9 @@
+<resources>
+    <color name="window_bg">#FFF7F7F7</color>
+    <color name="widget_bg">#F2FFFFFF</color>
+    <color name="widget_title">#FF000000</color>
+    <color name="widget_text">#FF1F1F1F</color>
+    <color name="widget_sub">#99000000</color>
+    <color name="widget_accent">#FF3482FF</color>
+    <color name="widget_pill">#243482FF</color>
+</resources>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Расписание</string>
+    <string name="widget_description">Занятия на сегодня</string>
+</resources>

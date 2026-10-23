@@ -1,0 +1,7 @@
+-keepattributes *Annotation*, InnerClasses
+-dontnote kotlinx.serialization.**
+-keepclassmembers class kotlinx.serialization.json.** { *** Companion; }
+-keepclasseswithmembers class kotlinx.serialization.json.** { kotlinx.serialization.KSerializer serializer(...); }
+-keep,includedescriptorclasses class com.usmanzade.timetable.**$$serializer { *; }
+-keepclassmembers class com.usmanzade.timetable.** { *** Companion; }
+-keepclasseswithmembers class com.usmanzade.timetable.** { kotlinx.serialization.KSerializer serializer(...); }

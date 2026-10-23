@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Timetable</string>
+    <string name="widget_description">Today\'s classes</string>
+</resources>

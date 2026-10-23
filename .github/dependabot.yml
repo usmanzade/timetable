@@ -1,0 +1,35 @@
+version: 2
+updates:
+  - package-ecosystem: gradle
+    directory: "/"
+    schedule:
+      interval: daily
+      timezone: Europe/Moscow
+    open-pull-requests-limit: 10
+    labels: [dependencies]
+    groups:
+      kotlin:
+        patterns: ["org.jetbrains.kotlin*", "org.jetbrains.kotlinx*"]
+      compose:
+        patterns: ["org.jetbrains.compose*"]
+      miuix:
+        patterns: ["top.yukonga.miuix*"]
+      androidx:
+        patterns: ["androidx*"]
+
+  - package-ecosystem: github-actions
+    directory: "/"
+    schedule:
+      interval: daily
+      timezone: Europe/Moscow
+    labels: [dependencies]
+    groups:
+      actions:
+        patterns: ["*"]
+
+  - package-ecosystem: docker
+    directory: "/.github/jdk"
+    schedule:
+      interval: daily
+      timezone: Europe/Moscow
+    labels: [dependencies, jdk]
